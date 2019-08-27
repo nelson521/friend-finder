@@ -1,6 +1,24 @@
-const router = require('express').Router()
-let path = require('path')
+let friends = require('../data/friends.js');
 
-router.get('/', (req, res) =>{
-  res.send(`API home route has been hit with ${req.method}`)
-})
+module.exports = function(app){
+
+  app.get('/api/friends', function(req, res){
+    res.json(friends);
+  })
+
+  app.post('/api/friends', function(req, res){
+    let bestMatch = {
+      name: '',
+      photo: '',
+      friendDifferece: 1000
+    };
+
+
+
+
+
+
+
+    
+  })
+}
