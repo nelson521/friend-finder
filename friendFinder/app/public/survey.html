@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Survey</title>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -15,7 +14,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -26,11 +26,11 @@
     <form action="">
       <div class="form-group">
         <label for="name">Name</label>
-        <input class="form-control" type="text" name="name" id="" placeholder="Full Name">
+        <input class="form-control" type="text" name="name" id="name" placeholder="Full Name">
       </div>
       <div class="form-group">
         <label for="name">Link To Photo</label>
-        <input class="form-control" type="file" name="file" id="" placeholder="Link Here">
+        <input class="form-control" type="text" name="photo" id="photo" placeholder="Link Here">
       </div>
     </form>
 
@@ -44,7 +44,7 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly disagree)</option>
+        <option value="5">5 (Strongly agree)</option>
       </select>
     </h3>
     <h3>
@@ -56,8 +56,9 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly disagree)</option>
+        <option value="5">5 (Strongly agree)</option>
       </select>
+
     </h3>
     <h3>
       <strong>Question 3:</strong>
@@ -68,31 +69,31 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly disagree)</option>
+        <option value="5">5 (Strongly agree)</option>
       </select>
     </h3>
     <h3>
       <strong>Question 4:</strong>
-      <h4>Rick and Morty > Family Guy.</h4>
+      <h4>Rick and Morty greater than Family Guy.</h4>
       <select class="custom-select" id="ques4">
         <option value="">Select One</option>
         <option value="1">1 (Strongly disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly disagree)</option>
+        <option value="5">5 (Strongly agree)</option>
       </select>
     </h3>
     <h3>
       <strong>Question 5:</strong>
-      <h4>The Notebook is > Love and Basketball.</h4>
+      <h4>The Notebook is greate than Love and Basketball.</h4>
       <select class="custom-select" id="ques5">
         <option value="">Select One</option>
         <option value="1">1 (Strongly disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly disagree)</option>
+        <option value="5">5 (Strongly agree)</option>
       </select>
     </h3>
     <h3>
@@ -104,7 +105,7 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly disagree)</option>
+        <option value="5">5 (Strongly agree)</option>
       </select>
     </h3>
     <h3>
@@ -116,7 +117,7 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly disagree)</option>
+        <option value="5">5 (Strongly agree)</option>
       </select>
     </h3>
     <h3>
@@ -128,7 +129,7 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly disagree)</option>
+        <option value="5">5 (Strongly agree)</option>
       </select>
     </h3>
     <h3>
@@ -140,7 +141,7 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly disagree)</option>
+        <option value="5">5 (Strongly agree)</option>
       </select>
     </h3>
     <h3>
@@ -152,7 +153,7 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly disagree)</option>
+        <option value="5">5 (Strongly agree)</option>
       </select>
     </h3>
 
@@ -168,7 +169,98 @@
       </div>
     </footer>
 
+    <div id="results-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h2 class="modal-title"><strong>Best Match</strong></h2>
+          </div>
+          <div class="modal-body">
+            <h2 id="match-name"></h2>
+            <img id="match-img" src="" alt="">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+
+    $('#submit').on("click", function (event) {
+      event.preventDefault();
+      console.log("form submitted");
+
+      // if form is empty it wont work
+      function validateForm() {
+        let isValid = true;
+        $(".form-control").each(function () {
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+
+        $(".chosen-select").each(function () {
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        })
+        return isValid;
+      }
+
+      if (validateForm()) {
+        let userData = {
+
+          name: $('#name').val(),
+          photo: $('#photo').val(),
+          score: [
+            $("#ques1").val(),
+            $("#ques2").val(),
+            $("#ques3").val(),
+            $("#ques4").val(),
+            $("#ques5").val(),
+            $("#ques6").val(),
+            $("#ques7").val(),
+            $("#ques8").val(),
+            $("#ques9").val(),
+            $("#ques10").val()
+
+          ]
+
+        }
+        console.log(userData);
+
+        $.post("/api/friends", userData, function (data) {
+          console.log(data);
+          $("#match-name").text(data.name);
+          $("#match-img").attr("src", data.photo);
+
+          $("#results-modal").modal("toggle");
+        });
+
+      } else {
+        alert("Fill out fields please");
+      }
+
+
+
+
+
+    })
+
+  });
+
+// end of doc ready
+  </script>
+
 </body>
 
 </html>
